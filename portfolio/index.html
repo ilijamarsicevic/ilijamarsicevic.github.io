@@ -3,33 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ilija Maršićević Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ili.yuh | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3rem;
+            text-transform: lowercase;
+            margin: 0;
+        }
+        .cta-button {
+            background-color: #000;
+            color: #fff;
+            border: none;
+            padding: 15px 30px;
+            font-size: 1.5rem;
+            text-transform: lowercase;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .cta-button:hover {
+            background-color: #333;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="intro">
-            <!-- Replace 'profile.jpg' with the actual filename of your photo -->
-            <img src="profile.jpg" alt="Ilija's Photo" id="profile-image">
-            <h1>just listen to the music</h1>
-            <p>Welcome to my world of sound. I’m Ilija Maršićević, a composer and producer shaping sound in unexpected ways.</p>
-            <a href="portfolio.html" id="cta">hear what I've been creating</a>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2025 Ilija Maršićević</p>
-    </footer>
+    <div>
+        <h1>just listen to the music</h1>
+        <a href="#music-section"><button class="cta-button">just listen to the music</button></a>
+    </div>
 </body>
 </html>
