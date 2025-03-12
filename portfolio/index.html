@@ -19,6 +19,7 @@
             background-color: #f4f4f4;
             color: #333;
             text-align: center;
+            flex-direction: column;
         }
         .container {
             max-width: 1200px;
@@ -48,17 +49,31 @@
         .cta-button:hover {
             background-color: #444;
         }
-        /* Adding a subtle hover effect to the container */
         .container:hover {
             transform: scale(1.02);
             transition: transform 0.3s ease;
+        }
+        /* Add some space for the image */
+        .image-container {
+            margin: 30px 0;
+        }
+        img {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>just listen to the music</h1>
-        <a href="#music-section"><button class="cta-button">just listen to the music</button></a>
+        <a href="#music-section"><button class="cta-button">go to the music</button></a>
+    </div>
+    
+    <!-- Add an image below the text -->
+    <div class="image-container">
+        <img src="path_to_your_image.jpg" alt="Your Image Description">
     </div>
 </body>
 </html>
